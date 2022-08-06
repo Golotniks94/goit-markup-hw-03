@@ -35,7 +35,6 @@ body {
   width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 2px solid tomato;
 }
 
 /* List */
@@ -75,6 +74,7 @@ body {
 }
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav .item + .item {
@@ -101,7 +101,6 @@ body {
 }
 
 .link.current {
-  margin-left: 93px;
   color: var(--accent-color);
 }
 
@@ -283,7 +282,18 @@ body {
   color: var(--white-color);
 }
 
+/* PORTFOLIO */
+
 /* Section Button  */
+.site-button {
+  display: flex;
+  justify-content: center;
+  padding: 94px 0px 50px 0px;
+}
+
+.button-items {
+  margin-right: 10px;
+}
 
 .button {
   font-weight: 500;
@@ -318,20 +328,30 @@ body {
   font-style: normal;
   padding-bottom: 60px;
 }
-
+/* Client Block */
+.client-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1210px;
+  padding-bottom: 94px;
+}
 .page-block {
   background: var(--white-color);
   border: 1px solid #eeeeee;
   text-decoration: none;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .page-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  padding: 20px 24px 5px 24px;
 }
 .page-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+  padding: 0px 24px 20px 24px;
 }
