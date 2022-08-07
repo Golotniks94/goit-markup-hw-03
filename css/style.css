@@ -34,8 +34,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Скрытые заголовки */
@@ -71,14 +71,13 @@ body {
 /* site-nav */
 .page-header {
   border-bottom: 1px solid var(--header-border-color);
+  padding: 24px 0px;
 }
 
 .header-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .main-nav {
   display: flex;
@@ -183,11 +182,11 @@ body {
 
 .section {
   background: var(--white-color);
+  padding: 94px 0;
 }
 
 .feature-list {
   display: flex;
-  padding: 94px 0px 94px 0px;
 }
 
 .feature-list__items {
@@ -212,12 +211,8 @@ body {
 
 /* IMAGE block  */
 
-.section {
-}
-
 .image-block {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .image-items {
@@ -228,6 +223,7 @@ body {
 
 .section-team {
   background: var(--team-background-color);
+  padding: 94px;
 }
 
 .block-title {
@@ -238,7 +234,6 @@ body {
 }
 
 .team {
-  padding-top: 94px;
 }
 
 .block {
@@ -247,7 +242,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 
 .block img {
@@ -296,7 +290,7 @@ body {
 .site-button {
   display: flex;
   justify-content: center;
-  padding: 94px 0px 50px 0px;
+  padding-bottom: 50px;
 }
 
 .button-items {
@@ -326,11 +320,12 @@ body {
 
 /* Page block  */
 .footer-block__logo {
-  padding: 60px 0px 20px 0px;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-items {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .address {
   font-style: normal;
@@ -340,8 +335,7 @@ body {
 .client-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1210px;
-  padding-bottom: 94px;
+  width: 1214px;
 }
 .page-block {
   background: var(--white-color);
