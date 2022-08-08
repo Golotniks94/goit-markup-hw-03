@@ -158,9 +158,9 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 .button-services {
   padding: 10px 32px;
@@ -223,14 +223,13 @@ body {
 
 .section-team {
   background: var(--team-background-color);
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .block-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -255,6 +254,10 @@ body {
 
 .block p {
   padding-bottom: 30px;
+}
+
+.block:last-child {
+  margin-right: 0px;
 }
 
 .block-team {
@@ -298,6 +301,10 @@ body {
   margin-right: 10px;
 }
 
+.button-items:last-child {
+  margin-right: 0px;
+}
+
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -320,8 +327,10 @@ body {
 }
 
 /* Page block  */
+.footer-section {
+  padding: 60px 0px 60px 0px;
+}
 .footer-block__logo {
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -330,21 +339,20 @@ body {
 }
 .address {
   font-style: normal;
-  padding-bottom: 60px;
 }
 /* Client Block */
 .client-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1214px;
+  gap: 30px 27px;
 }
+
 .page-block {
   background: var(--white-color);
   border: 1px solid #eeeeee;
   text-decoration: none;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
+
 .page-title {
   font-size: 18px;
   line-height: 2;
